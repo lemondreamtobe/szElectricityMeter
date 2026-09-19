@@ -1,0 +1,15 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+*.log
+*.local.json
+*.chls
+*.chlsj
+*.har
+*.p12
+*.key
+.env
+.env.*
+settings.json
+usage-*.json

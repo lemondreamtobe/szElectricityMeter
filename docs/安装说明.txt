@@ -1,0 +1,18 @@
+szElectricityMeter 1.0.0
+
+将 szElectricityMeter.app 拖到 Applications，再从“应用程序”打开。
+要求 macOS 14 或更新版本；请选用与 Mac 架构一致的安装包。
+已在 Apple Silicon 验证，Intel 尚未验证。
+
+App 常驻菜单栏，不显示 Dock 图标。点击进度环查看摘要，右键可退出。
+首次连接自己的电表：设置 → 连接电表 → 填写四个字段 → 保存并刷新。
+Token 过期或客户 ID 改变时，从同一次成功请求更新相应配置。
+安装包不携带个人凭证；早期本地版本的配置保持兼容。升级前先退出旧版。
+
+无需真实账号的演示启动方式：
+open /Applications/szElectricityMeter.app --args --demo --show
+
+这是 ad-hoc 本地签名版本，未经过 Apple Developer ID 公证。
+下载后可能被系统拦截；开发者可审阅源码后自行构建。
+本项目为独立社区工具，无南网官方授权关系。接口使用权限需自行核对。
+电费及预测仅作参考，以供电账单为准。
